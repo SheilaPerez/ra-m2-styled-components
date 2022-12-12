@@ -1,22 +1,35 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FlexBox } from '../../styles'
+import InputStyled from '../atoms/InputStyled'
+import Search from '../atoms/Icons/Search'
+import IconStyled from '../atoms/IconStyled'
 
-const SubHeaderStyled = styled(FlexBox)`
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background-color: lightblue;
-
-  &:hover {
-    background-color: ${(props) =>
-      props.hoverColor ? props.hoverColor : 'lightgreen'};
-  }
+const SubHeaderStyled = styled.div`
+  background-color: #c5e3f475;
+  padding: 0.8rem 2rem;
 `
 
-function SubHeader({ ...props }) {
-  return <SubHeaderStyled {...props}>Subheader</SubHeaderStyled>
+function SubHeader() {
+  return (
+    <SubHeaderStyled>
+      <InputStyled
+        type="text"
+        name="search"
+        placeholder="Piso, chalet o garaje..."
+        boxShadow="3px 4px 6px 0px #d4d4d4"
+        margin="0 10px 0 0 "
+      />
+      <InputStyled
+        type="text"
+        name="search"
+        placeholder="Madriz, Barcelona o Zaragoza..."
+        boxShadow="3px 4px 6px 0px #d4d4d4"
+      />
+      <IconStyled>
+        <Search />
+      </IconStyled>
+    </SubHeaderStyled>
+  )
 }
 
-export default styled(SubHeader)``
+export default SubHeader

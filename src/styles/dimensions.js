@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/prefer-default-export
 export const dimensions = {
   xss: "4px",
   xs: "8px",
@@ -8,6 +9,10 @@ export const dimensions = {
   font: {
     base: "16px",
     h1: "52px",
-    h2: "...",
+    h2: "44px",
+    h3: "36px",
+    h4: "28px",
+    h5: "20px",
+    h6: "12px"
   },
 };
