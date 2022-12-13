@@ -2,10 +2,10 @@ import PropTypes from 'prop-types'
 import Search from './Icons/Search'
 
 // eslint-disable-next-line no-unused-vars
-function Icon({ type }) {
+function Icon({ type }, props) {
   switch (type) {
     case 'search':
-      return <Search />
+      return <Search {...props} />
     default:
       return null
   }

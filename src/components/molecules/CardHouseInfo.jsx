@@ -19,6 +19,7 @@ const DivImageStyle = styled.div`
 `
 const DivInfoStyle = styled.div`
   margin-left: 10px;
+  margin-right: 10px;
 `
 
 function CardHouseInfo({ houseImage, houseInfo, housePrice }) {
@@ -37,7 +38,7 @@ function CardHouseInfo({ houseImage, houseInfo, housePrice }) {
         <Title
           color="grey"
           fontSize={dimensions.font.h6}
-          textOverflow="ellipisis"
+          textOverflow="ellipsis"
           overflow="hidden"
           whiteSpace="nowrap"
         >

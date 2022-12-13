@@ -1,4 +1,10 @@
 export { default as Text } from './Text'
 export { default as Button } from './Button'
+export {default as LocationButton} from './LocationButton'
 export { default as Title } from './Title'
 export { default as Icon } from './Icon'
+export {default as IconStyled} from './IconStyled'
+export {default as Grid} from './Grid'
+export {default as Card} from './Card'
+export {default as InputStyled} from './InputStyled'
+

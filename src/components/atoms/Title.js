@@ -7,7 +7,8 @@ const Title = styled.p`
     position: ${({position}) => position};
     margin: ${({margin}) => margin};
     text-overflow: ${({textOverflow}) => textOverflow};
-    overflow: ${({overflow}) => overflow}
-    white-space: ${({whiteSpace}) => whiteSpace}
+    overflow: ${({overflow}) => overflow};
+    white-space: ${({whiteSpace}) => whiteSpace};
+    width: ${({width}) => width}
 `
 export default Title

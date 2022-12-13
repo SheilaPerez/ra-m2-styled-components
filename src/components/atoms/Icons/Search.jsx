@@ -4,16 +4,11 @@ function Search(props) {
       {...props}
       version="1.0"
       xmlns="http://www.w3.org/2000/svg"
-      width="1280.000000pt"
-      height="1180.000000pt"
       viewBox="0 0 1280.000000 1180.000000"
       preserveAspectRatio="xMidYMid meet"
+      fill="white"
     >
-      <g
-        transform="translate(0.000000,1180.000000) scale(0.100000,-0.100000)"
-        fill="#000000"
-        stroke="none"
-      >
+      <g transform="translate(0.000000,1180.000000) scale(0.100000,-0.100000)">
         <path
           d="M4010 11789 c-1105 -89 -2068 -514 -2819 -1244 -510 -496 -874 -1099
 -1052 -1745 -252 -915 -157 -1844 276 -2694 272 -533 690 -1023 1198 -1405

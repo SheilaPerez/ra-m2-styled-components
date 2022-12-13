@@ -6,6 +6,9 @@ const Text = styled.p`
   font-size: ${({ fontSize }) => fontSize || dimensions.font.base};
   font-weight: ${({fontWeight}) => fontWeight};
   margin: ${({margin}) => margin};
+  position: ${({position}) => position};
+  top: ${({top}) => top};
+  left: ${({left}) => left};
 `
 
 export default Text

@@ -16,46 +16,47 @@ function App() {
         <Grid rows="repeat(3, 1fr)" columns="repeat(3, 1fr)">
           <CardHouse
             houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona, Gracia 930.000$"
-          />
-          <CardHouseInfo
-            houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona, Gracia, sfrgerg"
+            houseInfo="Casa en Barcelona, Zaragoza"
             housePrice="930.000$"
           />
           <CardHouseInfo
             houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona, Gracia"
+            houseInfo="Casa en Barcelona, Zaragoza"
             housePrice="930.000$"
           />
           <CardHouseInfo
             houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona, Gracia"
+            houseInfo="Casa en Barcelona, Zaragoza"
             housePrice="930.000$"
           />
           <CardHouseInfo
             houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona, Gracia"
+            houseInfo="Casa en Barcelona, Zaragoza"
             housePrice="930.000$"
           />
           <CardHouseInfo
             houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona, Gracia"
+            houseInfo="Casa en Barcelona, Zaragoza"
             housePrice="930.000$"
           />
           <CardHouseInfo
             houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona..."
+            houseInfo="Casa en Barcelona, Zaragoza"
             housePrice="930.000$"
           />
           <CardHouseInfo
             houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona..."
+            houseInfo="Casa en Barcelona, Zaragoza"
             housePrice="930.000$"
           />
           <CardHouseInfo
             houseImage="../public/house.jpeg"
-            houseInfo="Casa en Barcelona..."
+            houseInfo="Casa en Barcelona, Zaragoza"
+            housePrice="930.000$"
+          />
+          <CardHouseInfo
+            houseImage="../public/house.jpeg"
+            houseInfo="Casa en Barcelona, Zaragoza"
             housePrice="930.000$"
           />
         </Grid>
