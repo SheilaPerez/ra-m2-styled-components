@@ -7,4 +7,5 @@ export {default as IconStyled} from './IconStyled'
 export {default as Grid} from './Grid'
 export {default as Card} from './Card'
 export {default as InputStyled} from './InputStyled'
+export {default as Map} from './Map'
 
