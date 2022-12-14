@@ -1,18 +1,24 @@
 import PropTypes from 'prop-types'
-import Search from './Icons/Search'
+import styled from 'styled-components'
+import { colors } from '../../styles'
 
-// eslint-disable-next-line no-unused-vars
-function Icon({ type }, props) {
-  switch (type) {
-    case 'search':
-      return <Search {...props} />
-    default:
-      return null
-  }
+const IconStyled = styled.span`
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  color: ${({ color }) => color};
+`
+function Icon({ iconName }) {
+  return (
+    <IconStyled
+      className="material-symbols-outlined"
+      color={colors.searchButton}
+    >
+      {iconName}
+    </IconStyled>
+  )
 }
 
 export default Icon
 
 Icon.propTypes = {
-  type: PropTypes.string,
+  iconName: PropTypes.string,
 }

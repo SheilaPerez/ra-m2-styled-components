@@ -2,7 +2,7 @@
 export const colors = {
   main: '#6e537fed',
   secondary: '#91515a',
-  searchButton: '#009EFF',
+  searchButton: '#FFFFFF',
   font: {
     base: '#444',
     headings: '#121212',

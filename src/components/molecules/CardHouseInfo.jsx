@@ -2,8 +2,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Card from '../atoms/Card'
 import Title from '../atoms/Title'
-import Text from '../atoms/Text'
-import LocationButton from '../atoms/LocationButton'
+import Button from '../atoms/Button'
 import { dimensions } from '../../styles'
 
 const ImageStyle = styled.div`
@@ -44,10 +43,10 @@ function CardHouseInfo({ houseImage, houseInfo, housePrice }) {
         >
           {houseInfo}
         </Title>
-        <Text fontWeight="bold">
+        <Title fontWeight="bold" fontSize={dimensions.font.base}>
           {housePrice}
-          <LocationButton buttonTxt="Localizar" />
-        </Text>
+          <Button buttonTxt="Localizar" />
+        </Title>
       </DivInfoStyle>
     </Card>
   )

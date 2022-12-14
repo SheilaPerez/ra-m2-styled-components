@@ -2,7 +2,6 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Title from '../atoms/Title'
 import Card from '../atoms/Card'
-import Text from '../atoms/Text'
 
 const ImageStyle = styled.div`
   height: 100%;
@@ -22,6 +21,7 @@ function CardHouse({ houseImage, houseInfo, housePrice }) {
       position="relative"
     >
       <Title
+        fontSize="16px"
         color="white"
         margin="10px 0 0 10px"
         position="absolute"
@@ -32,9 +32,15 @@ function CardHouse({ houseImage, houseInfo, housePrice }) {
       >
         {houseInfo}
       </Title>
-      <Text position="absolute" color="white" top="20px" left="10px">
+      <Title
+        position="absolute"
+        fontSize="18px"
+        color="white"
+        top="20px"
+        left="10px"
+      >
         {housePrice}
-      </Text>
+      </Title>
       <ImageStyle image={houseImage} alt="house" />
     </Card>
   )
