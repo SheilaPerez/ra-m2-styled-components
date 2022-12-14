@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+// Aquí puedes exportar directamente DivColor....
 const DivColor = styled.div`
   background-color: #b2b2b2;
   width: 100%;

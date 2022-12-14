@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Button from './Button'
 
+// Este componente sobra
 function LocationButton({ buttonTxt }) {
   return (
     <Button type="button" padding="4px 13px" margin="0 0 0 5px">

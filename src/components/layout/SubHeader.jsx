@@ -14,6 +14,7 @@ const SubHeaderStyled = styled(FlexBox)`
 function SubHeader() {
   return (
     <SubHeaderStyled>
+      {/* Aquí crearia un Select, con los pasos necesarios de Atoms / Molecules / ... */}
       <InputStyled
         type="text"
         name="search"
