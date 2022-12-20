@@ -11,20 +11,22 @@ const SubHeaderStyled = styled(FlexBox)`
 `
 
 const IconDivStyled = styled(FlexBox)`
-  width: ${({ width }) => width || '30px'};
-  height: ${({ height }) => height || '30px'};
-  background-color: ${({ backgroundColor }) => backgroundColor};
-  border-radius: ${({ borderRadius }) => borderRadius || '5px'};
-  padding: ${({ padding }) => padding};
-  display
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  border-radius: 5px;
 `
 
 function SubHeader() {
   return (
     <SubHeaderStyled>
-      <Select placeholderSelect="Piso, chalet o garaje..." name="building" />
-      <Select placeholderSelect="Madriz, Barcelona o Zaragoza..." name="city" />
-      <IconDivStyled backgroundColor="blue" align="center" justify="center">
+      <Select placeholderSelect="Piso, chalet o garaje..." name="building">
+        <option value={0}>Busca casas</option>
+      </Select>
+      <Select placeholderSelect="Madriz, Barcelona o Zaragoza..." name="city">
+        <option value={0}>Busca ciudades</option>
+      </Select>
+      <IconDivStyled align="center" justify="center">
         <Icon iconName="search" />
       </IconDivStyled>
     </SubHeaderStyled>

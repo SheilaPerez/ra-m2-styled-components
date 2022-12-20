@@ -23,13 +23,7 @@ const DivInfoStyle = styled.div`
 
 function CardHouseInfo({ houseImage, houseInfo, housePrice }) {
   return (
-    <Card
-      border="1px solid black"
-      borderRadius="10px"
-      boxShadow="0px 1px 3px 4px #d4d4d4"
-      height="193px"
-      width="184px"
-    >
+    <Card>
       <DivImageStyle>
         <ImageStyle image={houseImage} alt="house" />
       </DivImageStyle>
