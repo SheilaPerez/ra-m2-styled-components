@@ -19,7 +19,7 @@ function Select({ placeholderSelect, name, children }) {
   )
 }
 
-export default Select
+export default styled(Select)``
 
 Select.propTypes = {
   placeholderSelect: PropTypes.string.isRequired,

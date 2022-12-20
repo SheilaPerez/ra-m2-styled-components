@@ -7,7 +7,7 @@ const Card = styled.div`
     width: 100%;
     height: 100%;
     position: ${({position}) => position};
-    background-color: ${({backgroundColor}) => backgroundColor || "white"};
+    background-color: white};
 `
 
 export default Card;
