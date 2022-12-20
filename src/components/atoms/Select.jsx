@@ -1,16 +1,18 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
+// Demasiados estilos pasados por props. Le puedes dar unos estilos por defecto y ya está, luego cuando tienes el Select en otro nivel sobreescribirlos si es necesario
 const SelectStyled = styled.select`
-  width: ${({ width }) => width || '300px'};
-  padding: ${({ padding }) => padding || '5px 22px'};
-  border-radius: ${({ borderRadius }) => borderRadius || '5px'};
-  border: ${({ border }) => border || '1px solid grey'};
-  box-shadow: ${({ boxShadow }) => boxShadow || ''};
-  margin: ${({ margin }) => margin};
-  appearance: ${({ apperance }) => apperance || 'none'};
+  width: ${({ width }) => width || '300px'}; // Overkill
+  padding: ${({ padding }) => padding || '5px 22px'}; // Overkill
+  border-radius: ${({ borderRadius }) => borderRadius || '5px'}; // Overkill
+  border: ${({ border }) => border || '1px solid grey'}; // Overkill
+  box-shadow: ${({ boxShadow }) => boxShadow || ''}; // Overkill
+  margin: ${({ margin }) => margin}; // Overkill
+  appearance: ${({ apperance }) => apperance || 'none'}; // Overkill
 `
 
+// Un select debería tener por lo menos una opción por defecto
 function Select({ placeholderSelect, name }) {
   return (
     <SelectStyled
@@ -23,6 +25,7 @@ function Select({ placeholderSelect, name }) {
   )
 }
 
+// Exporta el componente como export default styled(Select)``
 export default Select
 
 Select.propTypes = {
