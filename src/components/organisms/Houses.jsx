@@ -15,6 +15,7 @@ function Houses() {
       />
       {cardHouseInfo.map(() => (
         <CardHouseInfo
+          // falta un key unico para cada elemento renderizado
           houseImage="../public/house.jpeg"
           houseInfo="Casa en Barcelona, Zaragoza"
           housePrice="930.000$"

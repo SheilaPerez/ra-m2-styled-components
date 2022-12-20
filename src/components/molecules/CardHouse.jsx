@@ -16,8 +16,8 @@ function CardHouse({ houseImage, houseInfo, housePrice }) {
     <Card
       border="1px solid black"
       borderRadius="10px"
-      height="193px"
-      width="184px"
+      height="193px" // Continua viendose de manera rara por darle un height y width fijo
+      width="184px" // Continua viendose de manera rara por darle un height y width fijo
       position="relative"
     >
       <Title

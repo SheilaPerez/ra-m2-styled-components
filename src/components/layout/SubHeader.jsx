@@ -11,12 +11,19 @@ const SubHeaderStyled = styled(FlexBox)`
 `
 
 const IconDivStyled = styled(FlexBox)`
-  width: ${({ width }) => width || '30px'};
-  height: ${({ height }) => height || '30px'};
-  background-color: ${({ backgroundColor }) => backgroundColor};
-  border-radius: ${({ borderRadius }) => borderRadius || '5px'};
+  width: ${({ width }) =>
+    width ||
+    '30px'}; // overkill, no es necesario que todo se pueda editar por props
+  height: ${({ height }) =>
+    height ||
+    '30px'}; // overkill, no es necesario que todo se pueda editar por props
+  background-color: ${({ backgroundColor }) =>
+    backgroundColor}; // overkill, no es necesario que todo se pueda editar por props
+  border-radius: ${({ borderRadius }) =>
+    borderRadius ||
+    '5px'}; // overkill, no es necesario que todo se pueda editar por props
   padding: ${({ padding }) => padding};
-  display
+  display // Parece que falta algo aquí
 `
 
 function SubHeader() {
